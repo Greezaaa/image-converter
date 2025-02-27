@@ -47,7 +47,7 @@ def convert_images(input_folder: str, quality: int) -> None:
     output_folder = os.path.join(input_folder, f"webp-{quality}")
     os.makedirs(output_folder, exist_ok=True)
 
-    image_files = [f for f in os.listdir(input_folder) if f.lower().endswith((".jpg", ".jpeg", ".png"))]
+    image_files = [f for f in os.listdir(input_folder) if f.lower().endswith((".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".gif"))]
 
     for image_file in tqdm(image_files, desc="Converting images"):
         try:

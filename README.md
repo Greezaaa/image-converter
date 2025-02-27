@@ -1,6 +1,6 @@
 # Image Converter
 
-Python script to convert `JPEG`, `JPG`, and `PNG` images to `WebP` format while allowing users to set image quality.
+Python script to convert `JPEG`, `JPG`, `BMP`, `TIFF`, `GIF`, and `PNG` images to `WebP` format while allowing users to set image quality.
 
 ## Version
 
@@ -44,7 +44,7 @@ python app.py
 Converted images will be saved in a subfolder named webp-[quality] inside the original folder.
 
 ## Features
-✅ Supports .jpg, .jpeg, and .png
+✅ Supports .jpg, .jpeg, .png, .bmp, .tiff, gif and .png
 
 ✅ Converts images to .webp
 
